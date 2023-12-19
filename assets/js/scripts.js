@@ -253,3 +253,11 @@ document.addEventListener("DOMContentLoaded", function(){
 	initAnimations();
 	ajaxFormInit();
 });
+
+function mostrarConteudo(id) {
+    var conteudos = document.getElementsByClassName('conteudo-item');
+    for (var i = 0; i < conteudos.length; i++) {
+        conteudos[i].style.display = 'none';
+    }
+    document.getElementById(id).style.display = 'block';
+}
