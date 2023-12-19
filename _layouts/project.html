@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+	<!-- Navigation -->
+	{% include nav.html %}
+
+    <section class="py-10 py-lg-20 bg-bg-3">
+		<div class="container">
+			<div class="row flex-md-row flex-column">
+				<div class="col-lg-2 text-center text-lg-start mb-6 mb-lg-0" data-aos="fade-down" data-aos-delay="0">
+					<a href="#teste" class="font-heading text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block">
+						{{page.menuResumo}}
+					</a>
+					<a href="#" class="font-heading text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block">
+						Instructional Básico
+					</a>
+					<a href="#" class="font-heading text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block">
+						Pessoas
+					</a>
+					<a href="#" class="font-heading text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block">
+						Comunicaçào
+					</a>
+				</div>
+				<div class="col-lg-10">
+					<main class="page-content mx-20" aria-label="Content">
+                        <div class="wrapper">{{ content }}</div>
+                    </main>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	{% include footer.html %}
+
+	<!-- Scripts -->
+	{% include scripts-list.html %}
+
+</body>
+
+</html>
