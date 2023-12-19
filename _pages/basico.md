@@ -16,53 +16,48 @@ Escolha no Menu qual tutorial básico quer seguir.
 
 ### O que é soldagem?
 
-Soldagem é uma habilidade útil, fácil e divertida para unir peças de metal com um metal de preenchimento, conhecido como solda. Isso cria uma forte ligação elétrica que permite criar seus próprios projetos eletrônicos.
+A soldagem é uma habilidade útil, fácil e divertida para unir peças de metal com um metal de preenchimento, conhecido como solda. Isso cria uma ligação forte e condutora de eletricidade para criar seus próprios projetos eletrônicos.
 
 ### Quais ferramentas você precisa para soldar?
 
-- ferro de solda
-- solda de boa qualidade
-- suporte = 3ª mão
-- esponja
-- cortador de fio
-- solda
+- *Ferro de Solda*: Uma ferramenta com uma ponta que aquece para derreter a solda, permitindo unir componentes metálicos em eletrônicos.
+- *Solda*: Uma mistura de estanho e chumbo com um núcleo de fluxo usado para criar juntas condutivas e fortes em eletrônicos. O fluxo remove camadas de óxido, garantindo que as juntas de solda não rachem quando expostas a estresse térmico e físico. Você vê o fluxo evaporando durante o processo de soldagem.
+- *Suporte / Terceira Mão*: Um dispositivo com grampos ou braços para segurar componentes, liberando suas mãos para o trabalho de soldagem.
+- *Esponja*: Usada para limpar a ponta do ferro de solda, removendo solda velha e impurezas para garantir uma transferência de calor eficiente.
+- *Cortador de Fios*: Uma ferramenta usada para cortar e aparar fios ou terminais de componentes no comprimento desejado.
 
-### Quais componentes você precisa para soldar?
+### O que você faz antes de soldar?
 
-circuitos eletrônicos
-- componentes em uma Placa de Circuito Impresso (PCI)
-- terminais, almofadas e trilhas para fácil montagem
+*Organize os componentes na sua placa de circuito*
+- insira os terminais dos componentes nos furos da placa
+- dobre os terminais sob a placa para fixar a posição do componente
 
-### Como você solda?
+*Lembre-se das dicas de segurança*
+1. A ponta do ferro de solda fica quente o suficiente para derreter metais de solda. Se você tocar a ponta, soltará muito rapidamente!
+2. Chumbo é venenoso. Ele fica na sua pele quando você segura a solda, então lave as mãos após soldar!
+3. Cortar terminais pode criar projéteis cegantes. SEMPRE segure o terminal que está cortando com uma mão enquanto corta com a outra.
 
-#### Como se preparar para soldar?
+### Como você cria uma conexão de solda?
 
-cuidado / atenção
+- *Limpe o Ferro de Solda*: Limpe a ponta quente em uma esponja úmida para remover a solda velha e impurezas, garantindo uma transferência de calor eficaz e juntas de solda limpas.
 
-segurança
+- *Aqueça o Pad e o Terminal*: Toque a ponta tanto no pad (superfície metálica ao redor do furo na placa de circuito) quanto no terminal (a perna metálica do componente) para aquecê-los uniformemente.
 
+- *Adicione Solda*: Aplique solda na junção onde a ponta do ferro encontra o pad e o terminal, permitindo que a solda flua e crie uma conexão.
 
-- pegue o componente e a superfície alvo, resistor em uma PCI
-- dobre seus terminais
-- insira os terminais através das almofadas da PCI para posicionar o resistor
+- *Remova o Ferro Enquanto a Solda Esfria*: Retire o ferro mantendo a junta soldada parada, permitindo que a solda esfrie e solidifique sem perturbação.
 
-#### Como fazer a conexão da solda
-- como limpar o ferro de solda
-- aqueça a almofada e o terminal
-- adicione solda
-- remova o ferro enquanto a solda esfria
-- como garantir uma boa conexão
-	- ponta tocando a almofada e o terminal com solda derretida formando ao redor deles
+- *Lembre-se*: Para criar uma junta de solda confiável, certifique-se de que a ponta do ferro toque simultaneamente no pad e no terminal para que a solda fundida possa fluir ao redor deles.
 
-### Finalizando o Processo de Soldagem
-- como verificar boas conexões de solda
-- como lidar com excesso de solda
-	- sugá-lo
-como cortar terminais excessivos.
+### O que você faz após a soldagem?
 
-### Dicas Pós-Soldagem
-Sugestões para melhorar as habilidades de soldagem ao longo do tempo, e um lembrete da importância da segurança e prática.
-- Praticar melhora as habilidades de soldagem
+- *Verifique as Conexões de Solda*: Inspecione cada junta de solda para garantir que esteja lisa, brilhante e unida sem rachaduras.
+
+- *Lide com o Excesso de Solda*: Remova qualquer solda extra das juntas usando um sugador de solda para aspirá-la ou um pano de cobre para absorvê-la.
+
+- *Corte Terminais Excessivos*: Apare quaisquer terminais longos de componentes próximos à junta de solda para evitar curtos-circuitos acidentais.
+
+- *Lembre-se:* Lave as mãos e divirta-se aprimorando suas habilidades de soldagem.
 </div>
 
 <div markdown="1" id="usarprotoboard" class="conteudo-item">
