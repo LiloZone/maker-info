@@ -8,7 +8,9 @@ dataUpdate: 23/12/2023
 
 # Instrucional Básico {#basico}
 
-## Como soldar circuitos {: .conteudo-item #soldarcircuitos}
+<div markdown="1" id="soldarcircuitos" class="conteudo-item">
+
+## Como soldar circuitos
 
 {% include como-soldar.html%}
 
@@ -61,9 +63,11 @@ como cortar terminais excessivos.
 ### Dicas Pós-Soldagem
 Sugestões para melhorar as habilidades de soldagem ao longo do tempo, e um lembrete da importância da segurança e prática.
 - Praticar melhora as habilidades de soldagem
+</div>
 
+<div markdown="1" id="usarprotoboard" class="conteudo-item">
 
-## Como usar a protoboard {: .conteudo-item #usarprotoboard}
+## Como usar a protoboard 
 
 Uma protoboard é um dispositivo simples, porém inteligente, para prototipagem rápida de eletrônicos. 
 Ela consiste em uma carcaça de plástico com uma série de furos dispostos em linhas e colunas. 
@@ -95,8 +99,11 @@ Os contras das protoboards estão principalmente relacionados às limitações d
 - Conexões não são adequadas para componentes que dependem de uma grande conexão de terra para alguns de seus terminais para dissipação térmica, como pode ser o caso com algo como um CI de amplificador de potência operando em altos níveis de potência. Para trabalhos experimentais com protoboards, estes podem ser frequentemente operados em níveis mais baixos, onde a dissipação de calor não é necessária, ou um dissipador de calor pode ser adicionado ao dispositivo para ajudar na dissipação de calor.
 - Conexões não são adequadas para trabalhos de frequência muito alta, pois a resistência e a capacitância parasitas dos terminais, contatos de mola e fios-jumper podem introduzir alguma degradação nas formas de onda, como sinais de clock, à medida que a frequência aumenta. 1MHz geralmente é seguro e circuitos operando em até 10MHz a 16MHz são geralmente possíveis se cuidado for tomado no layout e a protoboard for de boa qualidade.
 - Nodos de conexão para alguns tipos de circuitos precisam ser mantidos o mais curtos possível para que um circuito funcione corretamente. A técnica de construção da prot
+</div>
 
-## Arduino Lovers {: .conteudo-item #arduinolovers}
+<div markdown="1" id="arduinolovers" class="conteudo-item">
+
+## Arduino Lovers
 
 - [Ir para A00](#a00)
 - [Ir para A01](#a01)
