@@ -7,9 +7,14 @@
 <!-- Menu Off-Canvas (para telas pequenas) -->
 <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="menuOffcanvas" aria-labelledby="menuOffcanvasLabel">
 	<div class="offcanvas-header">
-		<h5 class="offcanvas-title" id="menuOffcanvasLabel">Menu</h5>
+		<!-- <h5 class="offcanvas-title" id="menuOffcanvasLabel">Menu</h5> -->
+		<a href="index.html">
+			<img src="assets/i/logoprincipal.svg" alt="" class="img-fluid" data-aos="fade-down"
+				data-aos-delay="0">
+		</a>
 		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
+	{% include search.html %}
 	<div class="offcanvas-body bg-action-1">
 		<!-- Conteúdo do menu aqui -->
 		<ul>
