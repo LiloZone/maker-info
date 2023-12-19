@@ -7,7 +7,7 @@ dataUpdate: 23/12/2023
 ---
 
 # Instrucional Básico {#basico}
-Escolha qual tutorial básico quer seguir no menu à esquerda.
+Escolha no Menu qual tutorial básico quer seguir.
 <div markdown="1" id="soldarcircuitos" class="conteudo-item">
 
 ## Como soldar circuitos

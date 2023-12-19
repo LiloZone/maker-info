@@ -1,38 +1,99 @@
-				<div class="menu-left sidebar sticky-top bg-action-1 col-lg-2 text-center text-lg-start mb-6 mb-lg-0 px-2 pt-10 pb-2" data-aos="fade-down" data-aos-delay="0">
-					<ul>
-						<li>
-							<a href="materiais.html#materiais" class="font-heading text-dark-1">Materiais</a>
-							<ul>
-								<li><a href="materiais.html#ferramentas" class="link-action-2">Ferramentas</a></li>
-								<li><a href="materiais.html#consumiveis" class="link-action-2">Consumíveis</a></li>
-								<li><a href="materiais.html#partes" class="link-action-2">Partes</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="basico.html#basico" class="font-heading text-dark-1">Instrucional Básico</a>
-							<ul>
-								<li><a href="basico.html#soldarcircuitos" onclick="mostrarConteudo('soldarcircuitos')" class="link-action-2">Como soldar circuitos</a></li>
-								<li><a href="basico.html#usarprotoboard" onclick="mostrarConteudo('usarprotoboard')" class="link-action-2">Como usar uma protoboard</a></li>
-								<li><a href="basico.html#arduinolovers" onclick="mostrarConteudo('arduinolovers')" class="link-action-2">Arduino Lovers</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="pessoas.html#pessoas" class="font-heading text-dark-1">Pessoas</a>
-							<ul>
-								<li><a href="pessoas.html#comunidades" onclick="mostrarConteudo('comunidades')" class="link-action-2">Comunidades em São Paulo</a></li>
-								<li><a href="pessoas.html#makers" onclick="mostrarConteudo('makers')" class="link-action-2">Makers</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="comunicacao.html" class="font-heading text-dark-1">Comunicação</a>
-							<ul class="submenu">
-								<li><a href="comunicacao.html#compartilharprojeto" class="link-action-2">Compartilhe seu projeto na Maker Info</a></li>
-								<li><a href="comunicacao.html#boaspraticas" class="link-action-2">Boas Práticas</a></li>
-							</ul>
-						</li>
-					</ul>
-					
-					<!-- <a href="#comunicacao" onclick="mostrarConteudo('comunicacao')" class="font-heading text-dark-1 mb-lg-4 mx-lg-0 mx-2 d-lg-block">
-						Comunicação
-					</a> -->
-				</div>
+<!-- Botão para acionar o menu off-canvas (visível apenas em telas pequenas) -->
+<button class="btn btn-primary d-lg-none bg-action-1 rounded-0" type="button" data-bs-toggle="offcanvas"
+	data-bs-target="#menuOffcanvas" aria-controls="menuOffcanvas">
+	Menu
+</button>
+
+<!-- Menu Off-Canvas (para telas pequenas) -->
+<div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="menuOffcanvas" aria-labelledby="menuOffcanvasLabel">
+	<div class="offcanvas-header">
+		<h5 class="offcanvas-title" id="menuOffcanvasLabel">Menu</h5>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body bg-action-1">
+		<!-- Conteúdo do menu aqui -->
+		<ul>
+			<li>
+				<a href="materiais.html#materiais" class="font-heading text-dark-1">Materiais</a>
+				<ul class="list-unstyled">
+					<li><a href="materiais.html#ferramentas" class="link-action-2">Ferramentas</a></li>
+					<li><a href="materiais.html#consumiveis" class="link-action-2">Consumíveis</a></li>
+					<li><a href="materiais.html#partes" class="link-action-2">Partes</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="basico.html#basico" class="font-heading text-dark-1">Instrucional Básico</a>
+				<ul class="list-unstyled">
+					<li><a href="basico.html#soldarcircuitos" onclick="mostrarConteudo('soldarcircuitos')"
+							class="link-action-2">Como soldar circuitos</a></li>
+					<li><a href="basico.html#usarprotoboard" onclick="mostrarConteudo('usarprotoboard')"
+							class="link-action-2">Como usar uma protoboard</a></li>
+					<li><a href="basico.html#arduinolovers" onclick="mostrarConteudo('arduinolovers')"
+							class="link-action-2">Arduino Lovers</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="pessoas.html#pessoas" class="font-heading text-dark-1">Pessoas</a>
+				<ul class="list-unstyled">
+					<li><a href="pessoas.html#comunidades" onclick="mostrarConteudo('comunidades')"
+							class="link-action-2">Comunidades em São Paulo</a></li>
+					<li><a href="pessoas.html#makers" onclick="mostrarConteudo('makers')"
+							class="link-action-2">Makers</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="comunicacao.html" class="font-heading text-dark-1">Comunicação</a>
+				<ul class="list-unstyled">
+					<li><a href="comunicacao.html#compartilharprojeto" class="link-action-2">Compartilhe seu projeto</a>
+					</li>
+					<li><a href="comunicacao.html#boaspraticas" class="link-action-2">Boas Práticas</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- Menu Fixo (para telas maiores) -->
+<div class="menu-left sidebar sticky-top bg-action-1 col-lg-3 text-center text-lg-start mb-6 mb-lg-0 px-2 pt-10 pb-2 d-none d-lg-block"
+	data-aos="fade-down" data-aos-delay="0">
+	<ul>
+		<p class="text-dark-1 display-6">Menu</p>
+		<li>
+			<a href="materiais.html#materiais" class="font-heading text-dark-1">Materiais</a>
+			<ul class="list-unstyled">
+				<li><a href="materiais.html#ferramentas" class="link-action-2">Ferramentas</a></li>
+				<li><a href="materiais.html#consumiveis" class="link-action-2">Consumíveis</a></li>
+				<li><a href="materiais.html#partes" class="link-action-2">Partes</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="basico.html#basico" class="font-heading text-dark-1">Instrucional Básico</a>
+			<ul class="list-unstyled">
+				<li><a href="basico.html#soldarcircuitos" onclick="mostrarConteudo('soldarcircuitos')"
+						class="link-action-2">Como soldar circuitos</a></li>
+				<li><a href="basico.html#usarprotoboard" onclick="mostrarConteudo('usarprotoboard')"
+						class="link-action-2">Como usar uma protoboard</a></li>
+				<li><a href="basico.html#arduinolovers" onclick="mostrarConteudo('arduinolovers')"
+						class="link-action-2">Arduino Lovers</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="pessoas.html#pessoas" class="font-heading text-dark-1">Pessoas</a>
+			<ul class="list-unstyled">
+				<li><a href="pessoas.html#comunidades" onclick="mostrarConteudo('comunidades')"
+						class="link-action-2">Comunidades em São Paulo</a></li>
+				<li><a href="pessoas.html#makers" onclick="mostrarConteudo('makers')" class="link-action-2">Makers</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="comunicacao.html" class="font-heading text-dark-1">Comunicação</a>
+			<ul class="list-unstyled">
+				<li><a href="comunicacao.html#compartilharprojeto" class="link-action-2">Compartilhe seu projeto</a>
+				</li>
+				<li><a href="comunicacao.html#boaspraticas" class="link-action-2">Boas Práticas</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>

@@ -6,4 +6,4 @@ nomeEditores:
 dataUpdate: 
 ---
 
-Escolha no Menu a esquerda por onde quer começar a navegar!
+Escolha no Menu por onde quer começar a navegar!
