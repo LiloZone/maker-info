@@ -67,7 +67,7 @@ Sugestões para melhorar as habilidades de soldagem ao longo do tempo, e um lemb
 
 <div markdown="1" id="usarprotoboard" class="conteudo-item">
 
-## Como usar a protoboard 
+### Como usar a protoboard 
 
 Uma protoboard é um dispositivo simples, porém inteligente, para prototipagem rápida de eletrônicos. 
 Ela consiste em uma carcaça de plástico com uma série de furos dispostos em linhas e colunas. 
@@ -78,27 +78,25 @@ Quando um terminal de componente ou fio é inserido em um desses furos, ele fica
 
 ### Prós e Contras da Protoboard
 
-Protoboards são extremamente úteis para muitos projetos e são praticamente indispensáveis para trabalhar com Arduino e microprocessadores semelhantes, mas é importante entender seus prós e contras para saber onde podem ser aplicadas e onde podem não funcionar conforme você espera.
+Protoboards são extremamente úteis para começar a trabalhar com microprocessadores como o Arduino. 
+Mas, como tudo na vida, é importante entender seus prós e contras para saber onde podem ser aplicados e quais são suas limitações.
+Em muitos casos, um circuito destinado a uma aplicação permanente pode ser prototipado em uma protoboard sem solda e, depois, transferido para uma placa de circuito impresso soldada para construção final, uma vez que todos os problemas tenham sido resolvidos.
 
-**Prós:**
+*Prós:*
 
-- Protoboards fornecem uma maneira barata e fácil de começar com um conjunto de prototipagem eletrônica.
-- Circuitos podem ser construídos facilmente e rapidamente, simplesmente inserindo componentes e fios nos furos da protoboard. Fios-jumper também podem ser usados para conectar o circuito a um microcontrolador ou outro dispositivo externo, conforme necessário.
+- Protoboards são uma maneira barata e fácil de criar circuitos eletrônicos inserindo componentes e fios nos orifícios da protoboard.
 - Não é necessário soldar.
-- Mudanças no circuito podem ser feitas facilmente, simplesmente conectando e desconectando componentes e fios conforme necessário.
-- Uma vez que você termina com o circuito, os componentes podem ser facilmente removidos e reutilizados em um novo circuito no futuro.
+- O circuito pode ser facilmente alterado simplesmente conectando e desconectando componentes e fios conforme necessário.
+- Uma vez terminado o circuito, os componentes podem ser facilmente removidos e reutilizados em um novo circuito no futuro.
 
-**Contras:**
+*Contras:*
 
-Os contras das protoboards estão principalmente relacionados às limitações das conexões elétricas feitas pelos contatos de mola. A qualidade desses contatos tem um impacto significativo em quão grande é o problema de qualquer um desses contras, e isso será abordado em detalhes mais tarde.
+Os contras das protoboards estão principalmente relacionados às limitações das conexões elétricas feitas pelos contatos de mola.
 
-- Conexões não são tão robustas quanto as soldadas e não são adequadas para circuitos colocados em operação permanente de longo prazo. Vibração ou choque na montagem pode fazer com que as conexões falhem com o tempo.
-- Se a protoboard tiver contatos de má qualidade, as conexões podem ser intermitentes se os terminais forem mexidos.
-- Conexões podem ter uma resistência (impedância) maior do que uma conexão soldada. Essa impedância é afetada pela qualidade dos contatos usados na protoboard, pelo tamanho do componente ou fio inserido nos contatos e pelo quanto os contatos foram usados. Em alguns casos, isso pode ser como adicionar um resistor de série de 5 ohms a uma conexão de circuito. Se essa pequena impedância cria um problema para o circuito depende do tipo de circuito que é.
-- Conexões não são adequadas para fluxo de corrente alta, como pode ser necessário ao prototipar algo como um circuito de MOSFET de potência. Isso se deve principalmente à maior impedância dessas conexões, que pode causar aquecimento resistivo, e ao fato de que o diâmetro máximo do terminal é limitado a 20AWG, que é pequeno demais para lidar com correntes maiores. A corrente geralmente é limitada a cerca de 2A com uma protoboard de boa qualidade.
-- Conexões não são adequadas para componentes que dependem de uma grande conexão de terra para alguns de seus terminais para dissipação térmica, como pode ser o caso com algo como um CI de amplificador de potência operando em altos níveis de potência. Para trabalhos experimentais com protoboards, estes podem ser frequentemente operados em níveis mais baixos, onde a dissipação de calor não é necessária, ou um dissipador de calor pode ser adicionado ao dispositivo para ajudar na dissipação de calor.
-- Conexões não são adequadas para trabalhos de frequência muito alta, pois a resistência e a capacitância parasitas dos terminais, contatos de mola e fios-jumper podem introduzir alguma degradação nas formas de onda, como sinais de clock, à medida que a frequência aumenta. 1MHz geralmente é seguro e circuitos operando em até 10MHz a 16MHz são geralmente possíveis se cuidado for tomado no layout e a protoboard for de boa qualidade.
-- Nodos de conexão para alguns tipos de circuitos precisam ser mantidos o mais curtos possível para que um circuito funcione corretamente. A técnica de construção da prot
+- As conexões da protoboard não são tão robustas quanto as conexões soldadas e não são adequadas para operação a longo prazo. Vibrações podem fazer com que as conexões falhem ao longo do tempo.
+- Conexões de protoboard podem ter uma resistência maior do que conexões soldadas (cerca de +5 ohms).
+- Conexões não são adequadas para fluxo de corrente alta, por exemplo, para um circuito de MOSFET de potência. Devido ao aquecimento resistivo e a um diâmetro máximo de condutor de 20AWG, a corrente geralmente é limitada a cerca de 2A com uma protoboard de boa qualidade.
+- Devido à resistência e capacitância dispersas dos condutores, contatos de mola e fios de ligação, protoboards não são adequadas para operação de alta frequência acima de 10MHz.
 </div>
 
 <div markdown="1" id="arduinolovers" class="conteudo-item">
