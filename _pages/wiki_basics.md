@@ -6,4 +6,4 @@ nomeEditores:
 dataUpdate: 
 ---
 
-Pressione e escolha o que quer aprender
+Escolha no Menu a esquerda por onde quer começar a navegar!
